@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>LambdaTest</AssemblyName>
+    <RootNamespace>LambdaTest</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.1.0" />
+    <PackageReference Include="Amazon.Lambda.TestUtilities" Version="1.1.0" />
+    <PackageReference Include="Amazon.Lambda.DynamoDBEvents" Version="1.1.0" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.5.0.20" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\PublishToAisleDevice\PublishToAisleDevice.csproj" />
+  </ItemGroup>
+</Project>
