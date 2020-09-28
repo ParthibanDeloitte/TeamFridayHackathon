@@ -1,0 +1,134 @@
+
+.bin
+{
+  height: 100px;
+  width:100%;
+  background-size: cover;
+  border-width: 3px 8px 3px 8px;
+  border-style: solid ;
+  border-color:  #CAA472;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+  margin-bottom: 20px;
+ 
+}
+
+.tomatos
+{
+  background-image: url("../../../img/tomatos.jpg");
+}
+
+.lettuce
+{
+  background-image: url("../../../img/lettuce.jpg");
+}
+
+.apples
+{
+  background-image: url("../../../img/apples.jpg");
+}
+
+.oranges
+{
+  background-image: url("../../../img/oranges.jpg");
+}
+
+.chips
+{
+  background-image: url("../../../img/chips.jpg");
+}
+
+.oreos
+{
+  background-image: url("../../../img/oreos.png");
+}
+
+.bars
+{
+  background-image: url("../../../img/bars.jpg");
+}
+
+.candies
+{
+  background-image: url("../../../img/candies.jpg");
+}
+
+.sugar
+{
+  background-image: url("../../../img/sugar.jpg");
+}
+
+.salt
+{
+  background-image: url("../../../img/salt.jpg");
+}
+
+.flour
+{
+  background-image: url("../../../img/flour.jpg");
+}
+
+.pasta
+{
+  background-image: url("../../../img/pasta.jpg");
+}
+
+
+.milk
+{
+  background-image: url("../../../img/milk.jpg");
+}
+
+.cheese
+{
+  background-image: url("../../../img/cheese.jpg");
+}
+
+.cake
+{
+  background-image: url("../../../img/cake.jpg");
+}
+
+.bread
+{
+  background-image: url("../../../img/bread.jpg");
+}
+
+
+.favorite
+{
+  position: relative;  
+  left:-85px;
+  top:0px;  
+}
+
+.favorite2
+{
+  position: relative;
+  left:-115px;
+  top:40px;  
+}
+
+.favorite-off
+{
+  position: relative;  
+  left:-85px;
+  top:0px;
+  display:none;  
+}
+
+.favorite2-off
+{
+  position: relative;
+  left:-115px;
+  top:40px;  
+  display:none;
+}
+
+.restock
+{
+  position: relative;
+  top:-45px;
+  left:-20px;
+}

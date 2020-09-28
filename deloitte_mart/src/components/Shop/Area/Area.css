@@ -1,0 +1,42 @@
+.entrance
+{
+  background-image: url("../../../img/welcome.jpg");
+}
+
+.checkout
+{
+  background-image: url("../../../img/checkout.jpg");
+}
+
+.exit
+{
+  background-image: url("../../../img/Exit.jpg");
+}
+
+
+
+.shopper-entrance{
+  position: absolute;
+  top:0px;
+  left:0px; 
+  width: 80px;
+  height: 80px;
+  border-radius: .7em;
+  border: 5px solid #f6da73;
+  transition: .5s ease;
+  opacity: 1;
+}
+
+.shopper2-entrance{
+  position: absolute;
+  top:0px;
+  left:80px; 
+  width: 80px;
+  height: 80px;
+  border-radius: .7em;
+  border: 5px solid #f6da73;
+  transition: .5s ease;
+  opacity: 1;
+}
+
+
